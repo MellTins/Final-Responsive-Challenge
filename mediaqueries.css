@@ -1,0 +1,46 @@
+@media (max-width: 700px) {
+  .row {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+  .nav__btn{
+    display: inline-block;
+  }
+  .hero-intro h1 {
+    font-size: 4rem;
+  }
+  .col {
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .final-section {
+    padding: 0;
+  }
+  .naoseitambem {
+    width: 100%;
+  }
+  .naofacoideia {
+    display: block;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1070px) {
+  .row {
+    display: block;
+  }
+  .col {
+    margin: 3rem 0;
+  }
+  .final-section {
+    flex-direction: column;
+  }
+  .naoseitambem {
+    width: 100%;
+    padding: 0;
+  }
+  .naofacoideia {
+    margin: 1rem;
+  }
+}
